@@ -31,12 +31,12 @@ SoftwareSerial Serial1(4, 5);          // RX, TX to dfplayer module
 DFRobotDFPlayerMini myDFPlayer1;       //general purpose sound module
 
 byte weapon;
-const byte SFX_RESERVED_0 = 0;           //reserved sfx sounds
+const byte SFX_RESERVED_0 = 0;           //reserved gun sounds
 const byte SFX_POWERUP = 1;
 const byte SFX_READY = 2;
 const byte SFX_AMMO_EMPTY = 3;
 const byte SFX_AMMO_RELOADED = 4;
-const byte SFX_RESERVED_9 = 9;           //reserved sfx sounds
+const byte SFX_RESERVED_9 = 9;           //reserved gun sounds
 
 const byte MAX_AMMO = 10;                //Nerf ammo limit
 const byte MIN_WEAPON = 10;              //start of weapon sounds (01\010.mp3)
