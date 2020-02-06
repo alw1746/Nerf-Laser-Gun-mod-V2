@@ -1,5 +1,5 @@
 /*
- * Remote MP3 sound player on an ESP32.
+ * Remote MP3 sound player with an ESP32.
  * 
  * Receives weapon request for sound from nRF24L01+ radio and play selected sound on DFPlayer Mini MP3 Player module.
  * If the BUSY pin is LOW, the dfplayer is busy and vice versa.
