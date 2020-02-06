@@ -52,7 +52,7 @@ const byte SFX_RESERVED_9 = 9;           //reserved gun sounds
 
 const byte MAX_AMMO = 10;                //Nerf ammo limit
 const byte MIN_WEAPON = 10;              //start of weapon sounds (01\010.mp3)
-const byte MAX_WEAPON = 38;              //end of weapon sounds (01\038.mp3)
+const byte MAX_WEAPON = 40;              //end of weapon sounds (01\038.mp3)
 const byte DEFAULT_WEAPON = MIN_WEAPON;  //default weapon sound
 
 // Topology
